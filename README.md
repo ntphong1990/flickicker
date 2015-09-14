@@ -5,31 +5,31 @@ This is small app demo for flickr API.
 
 Test:
 
-1. Create an application that can upload photos to Flickr. -> OK
+. Create an application that can upload photos to Flickr. -> OK
 
-2. There will be three main screens: the upload screen, the photo list
+. There will be three main screens: the upload screen, the photo list
 
 screen, and the photo viewer screen. -> OK
 
-3. User can pick pictures from Android gallery as well as taking a photo
+. User can pick pictures from Android gallery as well as taking a photo
 
 by camera. -> OK(But rotate image is not support)
 
-4. For the photo list screen, use RecyclerView to display all your
+. For the photo list screen, use RecyclerView to display all your
 
 uploaded photos on Flickr vertically. -> OK
 
-5. When user taps on a photo in the photo list screen, open up the
+. When user taps on a photo in the photo list screen, open up the
 
 photo viewer screen. This photo viewer screen should enlarge the
 
 photo and support gesture zooming. -> OK
 
-6. An option to logout. -> (OK : Please click at top-left button to show Logout option)
+. An option to logout. -> (OK : Please click at top-left button to show Logout option)
 
-7. Make your app feel ‘materialized’ -> I think It's OK
+. Make your app feel ‘materialized’ -> I think It's OK
 
-8. Make sure your app is well-architected, we love to make our app to
+. Make sure your app is well-architected, we love to make our app to
 
 be internally beautiful. -> not really but can accept
 
