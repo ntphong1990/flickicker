@@ -2,6 +2,7 @@
 Flickicker
 
 This is small app demo for flickr API. 
+
 Test:
 
 1. Create an application that can upload photos to Flickr. -> OK
