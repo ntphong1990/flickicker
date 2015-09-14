@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip" >
+
+    <ImageView
+        android:id="@+id/imageIcon"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_marginRight="6dip"
+        android:layout_marginBottom="6dip"
+        android:src="@drawable/icon"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:clickable="false"/>
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/imageIcon"
+        android:layout_alignParentRight="true"
+        >
+
+        <TextView
+            android:id="@+id/imageTitle"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:textColor="#aaaa00"
+            android:textSize="6pt"
+            android:textStyle="italic" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.3"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="6dp">"
+
+            <ImageView
+                android:id="@+id/viewIcon"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginRight="6dip"
+                android:src="@drawable/views" />
+
+            <TextView
+                android:id="@+id/viewsText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:singleLine="true" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line_divider"
+
+        android:layout_alignParentBottom="true">
+    </LinearLayout>
+</RelativeLayout>
